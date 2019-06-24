@@ -1,0 +1,136 @@
+.headerText {
+    background: #234544;
+    width: 18vw;
+    height: 100%;
+    border-radius: 0 90px 90px 90px;
+    -webkit-border-radius: 0 90px 90px 90px;
+    -moz-border-radius: 0 90px 90px 90px;
+    -ms-border-radius: 0 90px 90px 90px;
+    -o-border-radius: 0 90px 90px 90px;
+    text-align: center;
+    padding: 1em;
+}
+#mySidenav {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 2em;
+    background-color: #fff;
+    list-style-type: none;
+    font-size: 2em;
+    margin-right: 1em;
+    padding: 0.3em 2em;
+    border: #000000 dotted 3px;
+    border-radius: 0 90px 90px 90px;
+    -webkit-border-radius: 0 90px 90px 90px;
+    -moz-border-radius: 0 90px 90px 90px;
+    -ms-border-radius: 0 90px 90px 90px;
+    -o-border-radius: 0 90px 90px 90px;
+}
+
+#mySidenav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.frontArticle {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ddd;
+    margin: 1em;
+    padding: 2em;
+    height: 10em;
+    width: 30vw;
+    min-width: 300px;
+    border: #000000 dotted 3px;
+    border-radius: 0 90px 90px 90px;
+    box-shadow: #000 2px 2px;
+}
+
+.frontArticle img {
+    height: 4em;
+    width: auto;
+}
+
+.frontProduct {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ddd;
+    margin: 1em;
+    padding: 2em;
+    height: 18em;
+    width: 18em;
+    border: #000000 dotted 3px;
+    border-radius: 0 90px 90px 90px;
+    box-shadow: #000 2px 2px;
+}
+
+.singleProduct,
+.singleArticle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ddd;
+    margin: 1em;
+    padding: 2em;
+    min-height: 18em;
+    width: 80vw;
+    border: #000000 dotted 3px;
+    border-radius: 0 90px 90px 90px;
+    box-shadow: #000 2px 2px;
+}
+
+.frontProduct img {
+    height: 8em;
+    width: auto;
+}
+.singleProduct img,
+.singleArticle img {
+    height: 16em;
+    width: auto;
+}
+
+.mainSection {
+    width: 40vw;
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #234544;
+    box-shadow: #000 2px 2px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 0 90px 90px 90px;
+}
+
+.singleProductSection,
+.singleArticleSection {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #234544;
+    box-shadow: #000 2px 2px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 0 90px 90px 90px;
+}
+
+.articleDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.productDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.page {
+    background-color: #234544;
+    width: 80vw;
+    padding: 2em;
+    border-radius: 0 90px 90px 90px;
+}

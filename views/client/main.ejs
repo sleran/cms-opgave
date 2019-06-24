@@ -1,0 +1,31 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+
+<main tabindex="0" role="main" class="main" id="maincontent">
+	<section class="mainSection">
+		<h2 class="frontHeading">Produkter</h2>
+		<% products.forEach(product => { %> 
+			<a href="/produkt/<%= product.id %>">
+				<article class="frontProduct">
+					<h2><%= product.name %></h2>
+					<img src="./media/<%= product.image %>" alt="">
+					<p>Pris: <%= product.price %>,-</p>
+				</article>
+			</a>
+		<% }); %>
+	</section>
+	<section class="mainSection">
+		<h2 class="frontHeading">Artikler</h2>
+		<% articles.forEach(article => { %> 
+			<a href="/artikel/<%= article.id %>">
+				<article class="frontArticle">
+					<img src="./media/<%= article.image %>" alt="">
+					<h2 class="articleName"><%= article.name %></h2>
+					<p>Skrevet af: <%= article.user_name %></p>
+				</article>
+			</a>
+		<% }); %>
+	</section>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>

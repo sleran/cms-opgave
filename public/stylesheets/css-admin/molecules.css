@@ -1,0 +1,108 @@
+input, select {
+    height: 2em;
+    max-width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid orange;
+    padding-left: 0.4em;
+}
+textarea {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid orange;
+    padding-left: 0.4em;
+}
+label {
+    margin-top: 0.4em;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid orange;
+}
+
+.postForm,
+.editForm {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 0.4em;
+    padding: 0.5em 2em;
+    width: 10em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: greenyellow;
+}
+
+.userItem,
+.menuItem {
+    display: flex;
+    align-items: center;
+}
+
+.imageList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.imageContainer {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 0.5em solid greenyellow;
+}
+
+.userItemAdd,
+.menuItemAdd,
+.catItemAdd {
+    display: flex;
+    flex-direction: column;
+}
+
+#addNewArticle,
+#addNewProduct,
+#addNewSite,
+#addUser,
+#addMenuItem,
+#addCategoryItem {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 10px; /* Location of the box */
+    left: 15px;
+    top: 0;
+    width: 95vw; /* Full width */
+    height: 95vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #fff;
+    border: 0.5em solid greenyellow;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+
+/* The Close Button */
+.close {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    align-self: flex-end;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ddd;
+    text-decoration: none;
+    cursor: pointer;
+  }

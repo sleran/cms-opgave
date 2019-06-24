@@ -1,0 +1,23 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+<main tabindex="0" role="main" class="loginMain main">
+	<section>
+		<h1><%= title %></h1>
+		<form action="/auth/login" method="POST">
+			<% if (typeof status != 'undefined') { %>
+				<span class="errorMessage"><%= status %></span>
+			<% } %>
+			<div>
+				<label for="loginForm__username">Brugernavn</label>
+				<input type="text" name="username" id="loginForm__username">
+			</div>
+			<div>
+				<label for="loginForm__passphrase">Adgangskode</label>
+				<input type="password" name="passphrase" id="loginForm__passphrase">
+			</div>
+			<button type="submit">Log in</button>
+		</form>
+	</section>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+body {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main:focus, footer:focus {
+    outline: none;
+}
+
+
+
+.siteFooter {
+    background-color: #000000;
+    color: #fff;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+}

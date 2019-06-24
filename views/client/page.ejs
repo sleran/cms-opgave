@@ -1,0 +1,12 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+
+<main tabindex="0" role="main" class="main" id="maincontent">
+		<article class="page">
+			<h2 class="pageName"><%= page.name %></h2>
+			<img src="./media/<%= page.image %>" alt="">
+			<div class="pageContent"><%- page.content %></div>
+		</article>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>

@@ -1,0 +1,17 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+
+<main tabindex="0" role="main" class="main" id="maincontent">
+	<section class="singleProductSection">
+			<article class="singleProduct">
+				<img src="/media/<%= product.image %>" alt="">
+				<div class="productDescriptionContainer">
+					<h2 class="productName"><%= product.name %></h2>
+					<div class="productDescription"><%- product.description %></div>
+					<p class="productPrice">Pris: <span class="productPriceTag"><%= product.price %>,-</span></p>
+				</div>
+			</article>
+	</section>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>

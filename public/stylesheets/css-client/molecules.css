@@ -1,0 +1,42 @@
+input, select {
+    height: 2em;
+    max-width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #542121;
+    padding-left: 0.4em;
+}
+textarea {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #542121;
+    padding-left: 0.4em;
+}
+label {
+    margin-top: 0.4em;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid #542121;
+}
+button {
+    margin-top: 0.4em;
+    padding: 0.5em 2em;
+    width: 10em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #234544;
+    color: #ffffff;
+}

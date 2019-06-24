@@ -1,0 +1,17 @@
+<% include partials/head.ejs %>
+<% include partials/header.ejs %>
+
+<main tabindex="0" role="main" class="main" id="maincontent">
+	<section class="singleArticleSection">
+			<article class="singleArticle">
+				<img src="/media/<%= article.image %>" alt="">
+				<div class="articleDescriptionContainer">
+					<h2 class="articleName"><%= article.name %></h2>
+					<div class="articleDescription"><%- article.content %></div>
+					<p class="articleAuthor">Forfatter: <span class="articleNameTag"><%= article.user_name %></span></p>
+				</div>
+			</article>
+	</section>
+</main>
+<% include partials/footer.ejs %>
+<% include partials/after-footer.ejs %>

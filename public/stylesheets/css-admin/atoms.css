@@ -1,0 +1,91 @@
+#jumpToContent {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+#jumpToContent:focus, #jumpToContent:active {
+    color: #000000;
+    background-color:#fff;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+
+.errorMessageShow {
+    max-width: 400px;
+    background-color: red;
+    color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 0.5em 2em;
+}
+.errorInput {
+    border: red solid 2px;
+}
+.successMessageShow {
+    max-width: 400px;
+    background-color: greenyellow;
+    color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 0.5em 2em;
+}
+.successInput {
+    border: greenyellow solid 2px;
+}
+img {
+    width: 2em;
+    height: auto;
+}
+.fa-trash-alt {
+    cursor: pointer;
+    color: red;
+}
+
+.fa-edit {
+    cursor: pointer;
+    color: black;
+}
+
+.adminLinkContainer {
+    padding: 0.5em;
+}
+
+.adminLink {
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.adminLink:hover {
+    color: #fff;
+    background-color: #000000;
+}
+
+.adminSiteHeader a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3em;
+}
+.note-btn {
+    width: auto;
+}
